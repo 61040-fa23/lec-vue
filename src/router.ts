@@ -8,6 +8,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      component: AboutVue
+    },
+    {
+      path: '/home',
       component: Home
     },
     {

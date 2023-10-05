@@ -4,7 +4,7 @@
 
 <template>
   <Header>
-    <template v-slot:subtitle>About Cartoons</template>
+    <template v-if="$route.params.persona" v-slot:subtitle>About Cartoons</template>
   </Header>
 
   <p v-if="$route.params.persona === 'pirate'">
